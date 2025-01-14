@@ -16,10 +16,9 @@ server.listen(3000, () =>
 );
 
 server.get("/users", (req, res) => {
+  const sqlite3 = require("sqlite3").verbose();
   const db = new sqlite3.Database("./gik339-labb2.db");
   db.all("SELECT * FROM USERS", (err, rows) => {
     res.send(rows);
   });
 });
-
-const sqlite3 = require("sqlite3").verbose();

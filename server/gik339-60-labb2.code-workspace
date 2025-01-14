@@ -1,14 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "../../../../Documents/GitHub/gik339-60-labb2"
-		},
-		{
-			"path": "../.vscode"
-		},
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "../../../../Documents/GitHub/gik339-60-labb2"
+    },
+    {
+      "path": "../.vscode"
+    },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {}
 }
